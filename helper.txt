@@ -1,0 +1,25 @@
+# Создаем виртуальное окружение
+# python3 -m venv venv
+# source venv/bin/activate
+
+# requirements.txt
+    # django
+    # djangorestframework
+    # psycopg2-binary
+
+# pip install -r requirements.txt
+
+# django-admin startproject name_project . - создаем главный /
+# проект с настройками нашего проекта
+
+# ./manage.py startapp name_app - создаем определенные приложения
+
+# ./manage.py makemigrations - создаем миграции
+# ./manage.py migrate - применяем миграции
+
+# ./manage.py runserver - запуск проекта
+
+# ./manage.py createsuperuser - создаем пользователя со всеми правами
+
+
+pip install virtualenv
